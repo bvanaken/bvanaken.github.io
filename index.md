@@ -1,15 +1,15 @@
 ## Betty van Aken
 
-I am a Research Assistant and 4th year PhD student at [DATEXIS - Beuth University of Applied Sciences Berlin](https://datexis.com). 
+Hi, I am a Research Assistant and 4th year PhD student at [DATEXIS - Beuth University of Applied Sciences Berlin](https://datexis.com). 
 
-I am working on Deep Neural Networks for Natural Language Processing (NLP) with a focus on **Clinical NLP** and **Explainability**.
+I work on Deep Neural Networks for Natural Language Processing (NLP) with a focus on **Clinical NLP** and **Explainability**.
 
 ### Publications
 -> See also my [Google Scholar profile](https://scholar.google.de/citations?user=3V75H5QAAAAJ).
 
 **Clinical Outcome Prediction from Admission Notes using Self-Supervised Knowledge Integration**. Betty van Aken, Jens-Michalis Papaioannou, Manuel Mayrdorfer, Klemens Budde, Felix Gers, Alexander Löser. **_EACL 2021_**
 
-[Paper](https://www.aclweb.org/anthology/2021.eacl-main.75/) :: [Demo]() :: [Code]() :: [Video]()
+[Paper](https://www.aclweb.org/anthology/2021.eacl-main.75/) :: [Demo](https://outcome-prediction.demo.datexis.com/) :: [Code](https://github.com/bvanaken/clinical-outcome-prediction) :: [Video](https://slideslive.com/38954381)
 
 **Assertion Detection in Clinical Notes: Medical Language Models to the Rescue?** Betty van Aken, Ivana Trajanovska, Amy Siu, Manuel Mayrdorfer, Klemens Budde, Alexander Loeser. **_NLPMC @ NAACL 2021_**
 
