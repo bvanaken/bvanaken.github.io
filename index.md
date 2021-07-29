@@ -4,6 +4,10 @@ Hi, I am a Research Assistant and 4th year PhD student at [DATEXIS - Beuth Unive
 
 I work on Deep Neural Networks for Natural Language Processing (NLP) with a focus on **Clinical NLP** and **Explainability**.
 
+You can contact me via [Email](mailto:bettyvanaken@gmail.com), [LinkedIn](https://www.linkedin.com/in/betty-van-aken/) or [Twitter](https://twitter.com/betty_v_a).
+
+Read more about my work on my [University Profile Page](https://prof.beuth-hochschule.de/loeser/people/betty-van-aken/).
+
 ### Publications
 -> See also my [Google Scholar profile](https://scholar.google.de/citations?user=3V75H5QAAAAJ).
 
