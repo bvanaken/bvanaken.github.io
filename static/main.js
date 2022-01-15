@@ -92,16 +92,23 @@ function resetGrowth() {
 function start(){
     $('#video-container').fadeIn("slow");
     $('#news-video').get(0).play(); 
-  setTimeout(function(){
 
-    $('#video-container').fadeOut("slow");
+    $("video").bind("ended", function() {
+       hideVideo();
+    });
+
+    $("video").bind("paused", function() {
+       hideVideo();
+    });
+}
+
+function hideVideo() {
+        $('#video-container').fadeOut("slow");
 
     $('#news-video').get(0).pause();
     $('#news-video').get(0).currentTime = 0;
 
     setupDayCounter();
-
-  }, 10000);
 }
 
 $(document).ready(function () {
