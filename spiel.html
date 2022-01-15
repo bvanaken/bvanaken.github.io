@@ -1,0 +1,108 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./static/libs/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/libs/jquery-ui.min.css">
+    <link rel="stylesheet" href="./static/libs/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="shortcut icon" href="https://prof.beuth-hochschule.de/fileadmin/Resources/images/favicon.ico"
+          type="image/x-icon">
+
+    <title>Das Spiel</title>
+
+</head>
+
+<body>
+<h2 class="title">Das Spiel</h2>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-12">
+            <div class="content-container day-count">
+                <img src="./static/img/play.png" width="50pt" class="play-button" onclick="start()">
+                Tag <span id="day-counter">0</span><span id="headline-event" style="margin-left: 250pt;"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-lg-4">
+            <div class="content-container">
+                <div style="padding-top:120pt;width: 100%;height: 400pt;background-image:url('./static/img/phone.png');background-size: cover;">
+                    
+                <div id="video-container" style="height:280pt;width: 100%;display:none;background: black;">
+                <video id="news-video" width="98%">
+                  <source src="/Users/betty/Projekte/Das-Spiel/tagesschau/erster-fall-de.mp4" type="video/mp4">
+                </video>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-8" style="padding-bottom: 10pt;">
+            <div class="content-container" style="height:100%;text-align: center;">
+                Tagesaktuelle Zahlen
+                <canvas id="data-canvas"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="row center-elements">
+
+        <div class="col-6 col-md-3 col-xl-2">
+            <div class="content-container action center-elements" onclick="reduceGrowth()">
+                Geschäfte<br>schließen
+            </div>
+        </div>
+        <div class="col-6 col-md-3 col-xl-2">
+            <div class="content-container action center-elements" onclick="reduceGrowth()">
+                Maskenpflicht
+            </div>
+        </div>
+        <div class="col-6 col-md-3 col-xl-2">
+            <div class="content-container action center-elements">
+                Forschungsbudgets<br>erhöhen
+            </div>
+        </div>
+        <div class="col-6 col-md-3 col-xl-2">
+            <div class="content-container action center-elements" onclick="resetGrowth()">
+                Beruhigendes<br>BamS Interview
+            </div>
+        </div>
+        <div class="col-6 col-md-3 col-xl-2">
+            <div class="content-container action center-elements" onclick="reduceGrowth()">
+                Komplett<br>Lockdown
+            </div>
+        </div>
+        <div class="col-6 col-md-3 col-xl-2">
+            <div class="content-container action center-elements" onclick="resetGrowth()">
+                Erstmal<br>Urlaub
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footnotes">
+    <br>
+    <br>
+    <p><b>Contact: <a href="https://prof.beuth-hochschule.de/loeser/people/betty-van-aken/"
+                      target="_blank">Betty van Aken</a> (<a
+            href="https://twitter.com/betty_v_a"
+            target="_blank">@betty_v_a</a>)</b></p>
+
+</div>
+
+
+<!-- JQuery Import - Placed at the end of the document so the pages load faster -->
+<script src="./static/libs/jquery-3.4.1.min.js"></script>
+<script src="./static/libs/jquery-ui.min.js"></script>
+<script src="./static/libs/Chart-3.7.0.min.js"></script>
+<script src="./static/main.js"></script>
+
+</body>
+
+</html>

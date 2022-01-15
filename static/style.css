@@ -1,0 +1,52 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin-left: 60pt;
+    margin-right: 60pt;
+}
+
+.container {
+    width: 100%;
+}
+
+.title {
+    text-align: left;
+    padding-top: 20pt;
+    padding-bottom: 15pt;
+    color: #117281;
+    font-weight: 700;
+}
+
+.play-button {
+    cursor: pointer;
+    margin-right: 20pt;
+}
+
+.content-container {
+    padding: 15pt 20pt 15pt 20pt;
+    background-color: #f4f7f8;
+    margin-bottom: 10pt;
+    border-left: solid #ccc 1px;
+    border-right: solid #ccc 1px;
+    border-top: solid #ccc 1px;
+    border-bottom: solid #ccc 1px;
+    box-shadow: 8px 8px 10px #88888833;
+}
+
+.action {
+    cursor: pointer;
+    text-align: center;
+    padding: 5pt;
+    height: 50pt;
+    flex-direction: column;
+}
+
+.day-count {
+    text-align: left;
+    font-size: 20pt;
+}
+
+.center-elements {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
